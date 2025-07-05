@@ -1,0 +1,223 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #0c0c2c;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #69b3f9;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  background: url('https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=2000,1561') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: left;
+  position: relative;
+}
+
+.hero .hero-content {
+  max-width: 700px;
+  margin-left: 60px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .cta-button {
+  background-color: #e53935;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background-color: #d32f2f;
+}
+
+/* ===== Section Gap Fix Below Hero ===== */
+.section-gap {
+  height: 80px;
+}
+
+.highlight {
+  max-width: 1450px;
+  margin: 2rem auto 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.highlight h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.highlight a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+/* ===== Feature Section Inspired by NASA ===== */
+.feature-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.feature-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.feature-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #333;
+}
+
+/* ===== Explore Section ===== */
+.explore-section {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+.explore-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.explore-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.explore-header a {
+  color: #1a1a1a;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.explore-item {
+  position: relative;
+  height: 350px; /* fixed */
+  width: 100%;   /* or set a fixed width like 320px */
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.explore-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* key to cropping/stretching while maintaining aspect ratio */
+  display: block;
+}
+
+.explore-item:hover img {
+  transform: scale(1.1);
+}
+
+.explore-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: #fff;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.explore-item:hover .explore-overlay {
+  opacity: 1;
+}
+
+.explore-overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.explore-overlay p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #0c0c2c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 14px;
+}

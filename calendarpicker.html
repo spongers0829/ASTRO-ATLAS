@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AstroAtlas - Space Events Calendar</title>
+  <link rel="stylesheet" href="calendarstyle.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo"><a href="index.html">AstroAtlas</a></div>
+      <div class="navbar-links" id="navbar-links">
+    <a href="news.html">APOD</a>
+    <a href="explore.html">Explore</a>
+    <a href="calendarpicker.html">Calendar</a>
+    <a href="newspage.html">News</a>
+    <a href="#about">About Us</a>
+      </div>
+<button class="hamburger" id="hamburger">&#9776;</button>
+
+<div class="popup-menu" id="popupMenu">
+    <a href="news.html">APOD</a>
+    <a href="explore.html">Explore</a>
+    <a href="calendarpicker.html">Calendar</a>
+    <a href="newspage.html">News</a>
+    <a href="#about">About Us</a>
+</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Discover Space Events by Date</h1>
+      <p>Select a date (day and month) to uncover historical space events.</p>
+      <div class="picker">
+        <select id="monthSelect">
+          <option value="">Month</option>
+          <script>
+            for (let m = 1; m <= 12; m++) {
+              document.write(`<option value="${String(m).padStart(2, '0')}">${m}</option>`);
+            }
+          </script>
+        </select>
+        <select id="daySelect">
+          <option value="">Day</option>
+          <script>
+            for (let d = 1; d <= 31; d++) {
+              document.write(`<option value="${String(d).padStart(2, '0')}">${d}</option>`);
+            }
+          </script>
+        </select>
+        <button onclick="fetchSpaceEvents()">Find Events</button>
+      </div>
+    </section>
+
+    <section id="eventResults" class="event-results">
+      <!-- Cards will appear here -->
+    </section>
+  </main>
+
+  <script src="calendryscript.js"></script>
+</body>
+</html>

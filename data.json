@@ -1,0 +1,124 @@
+const data = {
+      "exploreSection": [
+        {
+          "title": "Sun",
+          "link": "sun.html",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys8.jpg",
+          "alt": "Sun"
+        },
+        {
+          "title": "Mercury",
+          "link": "mercury.html",
+          "image": "https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg",
+          "alt": "Mercury"
+        },
+        {
+          "title": "Venus",
+          "link": "venus.html",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Venus_globe.jpg",
+          "alt": "Venus"
+        },
+        {
+          "title": "Earth",
+          "link": "earth.html",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+          "alt": "Earth"
+        },
+        {
+          "title": "Mars",
+          "link": "mars.html",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKjxecQZCI_Ly4a4TrNdDlXVAiPJzd_2Lww&s",
+          "alt": "Mars"
+        },
+        {
+          "title": "Jupiter",
+          "link": "jupiter.html",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtic7UQJqjjMDKrALA0ItwpIozIuCSXjjvuA&s",
+          "alt": "Jupiter"
+        },
+        {
+          "title": "Saturn",
+          "link": "saturn.html",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/0/PIA01364-1.jpg?w=1200&h=1500&fit=clip&crop=faces%2Cfocalpoint",
+          "alt": "Saturn"
+        },
+        {
+          "title": "Uranus",
+          "link": "uranus.html",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvDCeploT2QkTWVnOjksAD6iXaDh4AKHtCQ&s",
+          "alt": "Uranus"
+        },
+        {
+          "title": "Neptune",
+          "link": "neptune.html",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJ2bCIigCAYpKD867pd4uBm-_1Z_wWdxMYIzHD4T-rljK3-N86mwR9Z0jDiZzWjTQmhw&usqp=CAU",
+          "alt": "Neptune"
+        },
+        {
+          "title": "Pluto",
+          "link": "pluto.html",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg",
+          "alt": "Pluto"
+        },
+        {
+          "title": "Universe",
+          "link": "",
+          "image": "https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg",
+          "alt": "Universe"
+        },
+        {
+          "title": "Missions",
+          "link": "missions.html",
+          "image": "https://science.nasa.gov/wp-content/uploads/2023/04/hubble_faq_image-jpg.webp",
+          "alt": "Nasa Missions"
+        },
+        {
+          "title": "Aeronautics",
+          "link": "aeronautics.html",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/01/p23-168-087.jpg?resize=300,200",
+          "alt": "Aeronautics"
+        },
+        {
+          "title": "Space Technology",
+          "link": "spacetech.html",
+          "image": "https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png?resize=300,198",
+          "alt": "Space Tech"
+        },
+        {
+          "title": "Space Station",
+          "link": "spacestation.html",
+          "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/07/9802669_orig-H-2021.jpg?w=1296&h=730&crop=1",
+          "alt": "Space Station"
+        },
+        {
+          "title": "Humans In Space",
+          "link": "humansinspace.html",
+          "image": "https://www.nasa.gov/wp-content/uploads/2022/12/51476067951-e10dfb6875-o.jpg?resize=300,200",
+          "alt": "Humans In Space"
+        },
+        {
+          "title": "Explore Our Changing Planet",
+          "link": "changingplanet.html",
+          "image": "https://images.stockcake.com/public/9/8/6/986196b6-4743-4b20-9853-827e219de65d_medium/planet-earth-view-stockcake.jpg",
+          "alt": "Changing Planet"
+        },
+        {
+          "title": "Training",
+          "link": "training.html",
+          "image": "https://www.nasa.gov/wp-content/uploads/2023/06/jsc2014e044910.jpg?w=1024",
+          "alt": "Training"
+        },
+        {
+          "title": "Story Of Kalpana Chawla",
+          "link": "kalpanachawla.html",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg",
+          "alt": "Kalpana Chawla"
+        },
+        {
+          "title": "About ISRO",
+          "link": "isro.html",
+          "image": "https://www.isro.gov.in/media_isro/image/index/Recent/gslvf15_rec.png",
+          "alt": "About ISRO"
+        }
+      ]
+    };

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AstroAtlas</title>
+  <link rel="stylesheet" href="eventstyle.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">AstroAtlas</div>
+      <ul class="nav-links">
+    <a href="news.html">APOD</a>
+    <a href="explore.html">Explore</a>
+    <a href="calendarpicker.html">Calendar</a>
+    <a href="newspage.html">News</a>
+    <a href="#about">About Us</a>
+      </ul>
+    </nav>
+
+    <!-- Carousel Background -->
+    <div class="hero-carousel-wrapper">
+      <div class="carousel-bg">
+        <img src="https://bgr.com/wp-content/uploads/2022/03/AdobeStock_479160874.jpeg?quality=82&strip=all" class="carousel-img active" />
+        <img src="https://t3.ftcdn.net/jpg/06/88/49/94/360_F_688499421_rlgNRHA8jrS2MUarTm3JxXKCppDMKUgL.jpg" class="carousel-img" />
+        <img src="https://t3.ftcdn.net/jpg/12/63/85/84/360_F_1263858491_2FRynCnx6dSTj9YA9hhxzLb71ZcgKB4Y.jpg" class="carousel-img" />
+        <img src="https://t4.ftcdn.net/jpg/13/10/41/27/360_F_1310412760_bXsYMnYicHGI8JX8H0I8fdRbAbrrQovj.jpg" class="carousel-img" />
+      </div>
+      <div class="hero-text" data-aos="fade-up">
+        <h1>Exploring the Universe of Possibilities</h1>
+        <p>Welcome to AstroAtlas, your portal to cosmic discovery and scientific curiosity.</p>
+        <a href="#about" class="cta">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="calendar-section" class="section" data-aos="fade-up">
+    <h2>Explore Space Events by Date</h2>
+    <p>Select a date to discover space events or NASA APOD images from history!</p>
+    <input type="date" id="event-calendar" />
+    <div id="calendar-results"></div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-right">
+    <h2>About AstroAtlas</h2>
+    <p>AstroAtlas is a space exploration initiative focused on finding our place in the cosmos through research,
+      missions, and public engagement.</p>
+  </section>
+
+  <section id="missions" class="section" data-aos="fade-left">
+    <h2>Our Missions</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Deep Space Listening</h3>
+        <p>Scanning the skies for extraterrestrial signals.</p>
+      </div>
+      <div class="card">
+        <h3>Planetary Research</h3>
+        <p>Studying planetary systems and environments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="science" class="section" data-aos="fade-right">
+    <h2>Science & Discoveries</h2>
+    <p>Get involved in real-time data analysis and space science research through our community science programs.</p>
+  </section>
+
+  <section id="news" class="section" data-aos="fade-left">
+    <h2>Latest News</h2>
+    <p>Stay updated with our recent findings, publications, and events that shape the future of space exploration.</p>
+  </section>
+
+  <section id="support" class="section" data-aos="zoom-in">
+    <h2>Support Our Work</h2>
+    <p>Join us in our quest to explore the cosmos by donating or becoming a part of our volunteer network.</p>
+    <a href="#" class="cta">Donate Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AstroAtlas. All rights reserved.</p>
+  </footer>
+
+  <script src="eventscript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>

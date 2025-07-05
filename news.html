@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AstroAtlas - Space Feed</title>
+  <link rel="stylesheet" href="newsstyle.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-icons-png.flaticon.com/512/4718/4718235.png">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">AstroAtlas</div>
+      <div class="navbar-links" id="navbar-links">
+    <a href="news.html">APOD</a>
+    <a href="explore.html">Explore</a>
+    <a href="calendarpicker.html">Calendar</a>
+    <a href="newspage.html">News</a>
+    <a href="#about">About Us</a>
+      </div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+    <div class="popup-menu" id="popupMenu">
+    <a href="news.html">APOD</a>
+    <a href="explore.html">Explore</a>
+    <a href="calendarpicker.html">Calendar</a>
+    <a href="newspage.html">News</a>
+    <a href="#about">About Us</a>
+    </div>
+  </header>
+
+  <section class="today-apod" id="today-apod">
+    <!-- Today’s APOD will load here -->
+  </section>
+
+  <section class="carousel" id="apod-carousel">
+    <h2>📆 Previous APODs</h2>
+    <div class="carousel-track" id="carousel-track"></div>
+  </section>
+
+  <section class="news-section">
+    <h2>📰 Latest Space News</h2>
+    <div class="news-grid" id="news-container"></div>
+  </section>
+
+  <script src="newsscript.js"></script>
+</body>
+</html>
