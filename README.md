@@ -4,7 +4,7 @@ Made By Team Byters.
 
 ## Setup-Guide
 
-Clone the GitHub repository into your device and Open index.html to run the site full fledged 
+Clone the GitHub repository into your device and Open index.html to run the site.
 
 ## Features
 📌 Key Features (calendar, space events, news cards, hero section, chat bot etc.)
@@ -44,4 +44,4 @@ Ayush Kumar (RA2411003010472)(Email:- ak0603@srmist.edu.in )
 
 Bhavik Jain (RA2411003010463) (Email:- Bj0137@srmist.edu.in)
 
-Bhavik Jain (RA2411003010456) (Email:- Ys9515@srmist.edu.in)
+Yuvraj Singh (RA2411003010456) (Email:- Ys9515@srmist.edu.in)
