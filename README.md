@@ -1,47 +1,47 @@
-# ASTRO-ATLAS
 
-Made By Team Byters.  
+# 🌌 ASTRO-ATLAS  
+**Created by Team Byters**
 
-## Setup-Guide
+---
 
-Clone the GitHub repository into your device and Open index.html to run the site.
+## 🚀 Project Overview  
+**ASTRO-ATLAS** is a web-based platform that delivers fascinating insights into space and astronomy through an interactive interface. Users can explore astronomical events, space news, historical space missions, and more.
 
-## Features
-📌 Key Features (calendar, space events, news cards, hero section, chat bot etc.)
+---
 
-📱 Responsive behavior
+## 🛠️ Setup Guide  
+1. Clone this repository to your local machine.  
+2. Open `index.html` in your preferred browser to launch the site.
 
-🔗 API integrations
+---
 
-✨ Design + UX enhancements
+## ✨ Key Features  
+- 📅 **Calendar Integration**: Discover major space events aligned with specific dates.  
+- 🛰️ **Astronomical Events & News Cards**: Stay updated with the latest space-related news and events.  
+- 💬 **Chatbot Interface**: Engage in conversations and receive quick insights on astronomy.  
+- 🎯 **Hero Section**: Dynamic landing experience highlighting key space content.  
+- 📱 **Fully Responsive**: Seamless experience across devices.  
+- 🔗 **Live API Integrations**: Real-time content fetched via APIs.  
+- 📚 **Informative Content**: Learn about past missions, astronomy facts, and historical milestones.
 
-📚 Provides knowledge about space facts and missions . Provides Key Astronomical events that Occurred on specific dates in past. 
+---
 
+## 🔗 API Integrations  
+We’ve utilized the following APIs to provide real-time data:
 
-## Dependencies
+1. **NASA APOD API** – Fetches Astronomy Picture of the Day  
+2. **Wikipedia OnThisDay API** – Retrieves historical space-related events  
+3. **Spaceflight News API** – Supplies the latest articles on space missions and developments
 
-✅ **1. APIs**
+---
 
-These are remote data sources you're using via fetch/AJAX:
+## 📦 Dependencies  
+- JavaScript must be enabled in the browser.  
+- A stable internet connection is required to load data via APIs.
 
-NASA APOD API (Used to fetch the Astronomy Picture of the Day)
+---
 
-Wikipedia OnThisDay API (Used to get historical space-related events)
-
-Spaceflight News API (Used to fetch recent space news articles)
-
-
-
-✅ **1. Other Dependencies **
-
-Java script should be running
-
-Must have an active Internet connection (for the API's to fetch details )
-
-
-## Team Byters
-Ayush Kumar (RA2411003010472)(Email:- ak0603@srmist.edu.in )
-
-Bhavik Jain (RA2411003010463) (Email:- Bj0137@srmist.edu.in)
-
-Yuvraj Singh (RA2411003010456) (Email:- Ys9515@srmist.edu.in)
+## 👨‍💻 Team Byters  
+- **Ayush Kumar** (RA2411003010472) – [ak0603@srmist.edu.in](mailto:ak0603@srmist.edu.in)  
+- **Bhavik Jain** (RA2411003010463) – [bj0137@srmist.edu.in](mailto:bj0137@srmist.edu.in)  
+- **Yuvraj Singh** (RA2411003010456) – [ys9515@srmist.edu.in](mailto:ys9515@srmist.edu.in)
